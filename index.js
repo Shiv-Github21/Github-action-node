@@ -3,7 +3,7 @@ const app = express();
 const request = require('request');
 const wikip = require('wiki-infobox-parser');
 
-//ejsjj
+//ejs
 app.set("view engine", 'ejs');
 
 //routes
