@@ -4,6 +4,7 @@
   "description": "Research about a person",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
