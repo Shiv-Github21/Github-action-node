@@ -1,8 +1,8 @@
 name: node-linter
 on:
-  push:
-    paths:
-      - "**/*.js"
+  workflow_dispatch:
+    # paths:
+    #   - "**/*.js"
 
 jobs:
   code:
